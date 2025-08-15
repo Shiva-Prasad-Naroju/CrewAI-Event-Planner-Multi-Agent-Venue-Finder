@@ -59,22 +59,34 @@ Simply provide your event details — topic, city, date, expected participants, 
 ## Example Input:
 
 event_details = {
+
     "event_topic": "Tech Innovation Conference",
+
     "event_description": "A gathering of tech innovators, startup founders and industry leaders to explore future technologies.",
+    
     "event_city": "Hyderabad",
+    
     "tentative_date": "2025-08-30",
+    
     "expected_participants": 100,
+    
     "budget": 20000,
+    
     "venue_type": "Conference Hall"
 }
 
 ## 📜 Example Output:
 
 {
+
   "name": "T-Hub",
+
   "address": "Raidurg, Hyderabad",
+  
   "capacity": 150,
+  
   "booking_status": "Available"
+  
 }
 
 
